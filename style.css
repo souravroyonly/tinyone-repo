@@ -5,8 +5,14 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: #898989;
+    padding-top: 109px;
+}
+.c_padding{
+     padding-top: 100px;
+     padding-bottom: 120px;
 }
 /* common css end */
+
 /* header start */
 header{
     background-color:#fcdb00;
@@ -86,8 +92,7 @@ header{
 /* slider end */
 /* feature start */
 .feature{
-     padding-top: 100px;
-     padding-bottom: 120px;
+     
 }
 .c_title{
 
@@ -131,3 +136,80 @@ header{
   letter-spacing: 1px;
 }
 /* feature end */
+/* contact start */
+.contact{
+    background-color: #010101;
+}
+.yellow{
+    color: #fcdb00;
+}
+.ash{
+    color: #898989;
+}
+.c_form{
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+.c_input{
+    font-family: 'PT Sans', sans-serif;
+    color: #898989;
+    padding: 15px 20px;
+    height: 55px;
+}
+.c_submit{
+    width: 100%;
+    height: 55px;
+    background-color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+}
+.c_submit:hover{
+    background-color: #ffffff;
+}
+.c_icon{
+
+}
+.c_icon ul li {
+    margin-right: 30px!important;
+}
+.c_icon ul li:last-child {
+    margin-right: 0px!important;
+}
+.c_icon ul li a i{
+    font-size: 45px;
+    color: #fcdb00;
+    transition: 0.3s;
+}
+.c_icon ul li a i:hover{
+    color: #ffffff;
+}
+/* contact end */
+/* footer start */
+footer{
+    padding-bottom: 110px;
+    background-color: #010101;
+    
+}
+.f_1{
+
+}
+.f_1 address{
+    color: #ffffff;
+}
+.f_2{
+
+}
+.f_2 p a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.f_2 p a:hover{
+    color: #fcdb00;
+    
+}
+
+/* footer end */
