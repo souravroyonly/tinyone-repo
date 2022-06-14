@@ -103,4 +103,31 @@ header{
   color: #313841;
   line-height: 27px;
 }
+.f_margin{
+    margin-top: 70px;
+}
+.f_icon{
+
+}
+.f_icon i{
+    margin-top: 4px;
+    font-size: 50px;
+    color: #010101;
+    transition: 0.3s;
+}
+.f_icon i:hover{
+    transform: scale(0.8);
+}
+.f_text{
+
+}
+.f_text h2{
+     margin-bottom: 10px;
+     font-size: 22px;
+     font-weight: 400;
+     color: #010101;
+}
+.f_text p{
+  letter-spacing: 1px;
+}
 /* feature end */
